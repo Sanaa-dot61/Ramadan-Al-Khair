@@ -30,6 +30,7 @@ const names = [
     "سندس جمال",
     "زينب محمد",
     "أميرة مستغاضي",
+    "آلاء أسامة",
 ];
 const btn = document.getElementById("spinBtn");
 const result = document.getElementById("result");
@@ -46,4 +47,5 @@ btn.addEventListener("click", () => {
         result.innerHTML = randomName;
         result.classList.add("fade");
     }, 2000);
+
 });
