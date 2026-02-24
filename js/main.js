@@ -31,6 +31,7 @@ const names = [
     "زينب محمد",
     "أميرة مستغاضي",
     "آلاء أسامة",
+    "أروي علي"
 ];
 const btn = document.getElementById("spinBtn");
 const result = document.getElementById("result");
@@ -49,3 +50,4 @@ btn.addEventListener("click", () => {
     }, 2000);
 
 });
+
